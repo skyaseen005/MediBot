@@ -1,0 +1,18 @@
+# Virtual environments
+newenv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Secrets / keys
+*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
