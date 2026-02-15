@@ -4,7 +4,7 @@
 fastapi==0.104.1
 uvicorn==0.24.0
 flask==3.0.0
-pydantic==2.5.0
+pydantic>=2.7.4,<3.0.0
 
 # =========================
 # MongoDB
@@ -14,7 +14,7 @@ motor==3.3.2
 certifi==2024.2.2
 
 # =========================
-# NLP / ML (Render-safe)
+# NLP / ML (Python 3.10 SAFE)
 # =========================
 torch==2.2.2
 transformers==4.36.0
@@ -24,7 +24,7 @@ numpy>=1.26.0
 scikit-learn>=1.4.0
 
 # =========================
-# LangChain (LOCKED – IMPORTANT)
+# LangChain (LOCKED)
 # =========================
 langchain==0.3.0
 langchain-community==0.3.0
